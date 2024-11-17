@@ -11,8 +11,8 @@ function generateSchedule() {
         { newWords: [40, 59], previous: [20, 39], weekBefore: [-140, -121], monthBefore: [[-680, -661]] },
         { newWords: [60, 79], previous: [40, 59], weekBefore: [-120, -101], monthBefore: [[-660, -641]] },
         { newWords: [80, 99], previous: [60, 79], weekBefore: [-100, -81], monthBefore: [[-640, -621]] },
-        { newWords: [100, 139], previous: [80, 99], weekBefore: [-80, -41], monthBefore: [[-620, -581], [-560, -541]] },
-        { newWords: [140, 179], previous: [100, 139], weekBefore: [-40, -1], monthBefore: [[-600, -561]] }
+        { newWords: [100, 139], previous: [80, 99], weekBefore: [-80, -41], monthBefore: [[-620, -581], [-540, -521]] },
+        { newWords: [140, 179], previous: [100, 139], weekBefore: [-40, -1], monthBefore: [[-580, -541]] }
     ];
 
     const numberOfWeeks = parseInt(document.getElementById('weeks').value);
